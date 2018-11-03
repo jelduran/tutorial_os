@@ -17,7 +17,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/ripples.min.css" />
     
-    <link href="/css/app.css" rel="stylesheet">
+    <!--<link href="/css/app.css" rel="stylesheet">-->
 
     <!-- Scripts -->
     <script>
@@ -95,6 +95,6 @@
     <script>
         $.material.init();
     </script>
-    <script src="/js/app.js"></script>
+    <!--<script src="/js/app.js"></script>-->
 </body>
 </html>
