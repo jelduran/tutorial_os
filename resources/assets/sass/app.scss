@@ -1,9 +1,36 @@
 
 // Fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+//@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
 
 // Variables
 @import "variables";
 
 // Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.big-padding{
+    padding:30px;
+}
+
+.text-center{
+}
+
+.blue-grey{
+    background-color:#37474f;
+}
+
+.white-text{
+    color:white;
+}
+
+.table{
+    background-color:white;
+}
+
+.navbar{
+    margin-bottom:0;
+}
+
+.white{
+    background-color:white;
+}
