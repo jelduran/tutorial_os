@@ -19,6 +19,10 @@
     background-color:#37474f;
 }
 
+.absolute{
+    position:absolute;
+}
+
 .inline-block{
     display:inline-block;
 }
@@ -60,4 +64,21 @@
     bottom:2em;
     right:2em;
     z-index:100;
+}
+
+.product{
+    width:600px;
+    max-width:100%;
+    padding:1em;
+    position:relative;
+    
+    h1{
+        padding-bottom:10px;
+        border-bottom:solid 1px;
+    }
+    
+    .actions{
+        right:1em;
+        top:10px;
+    }
 }
