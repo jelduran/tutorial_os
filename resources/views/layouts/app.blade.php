@@ -56,6 +56,14 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="">
+                                Mi carrito
+                                <span class="circle-shopping-cart">
+                                    {{ $shopping_cart->productsSize() }}
+                                </span>
+                            </a>
+                        </li>
                         <!-- Authentication Links -->
                         @if (Auth::guest())
                             <li><a href="{{ url('/login') }}">Login</a></li>
@@ -97,6 +105,6 @@
     <script>
         $.material.init();
     </script>
-    <script src="/js/app.js"></script>
+    <!--<script src="/js/app.js"></script>-->
 </body>
 </html>
