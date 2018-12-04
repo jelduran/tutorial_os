@@ -168,6 +168,7 @@ return [
          */
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        App\Providers\ShoppingCartProvider::class,
         //
 
         /*
