@@ -26,4 +26,12 @@ class ShoppingCartController extends Controller
         
         return view('shopping_carts.index', ["products" => $products, "total" => $total]);*/
     }
+    
+    public function show($id){
+        $shopping_cart = ShoppingCart::where('custom_id', $id)->first();
+        
+        $order = $shopping_cart->order();
+        
+        return view('shopping_carts.completed', ['shopping_cart' => $shopping_cart, 'order' => $order]);
+    }
 }
