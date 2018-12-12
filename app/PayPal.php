@@ -83,7 +83,7 @@ class PayPal
         $execution = \PaypalPayment::PaymentExecution()
                                     ->setPayerId($payerId);
                                     
-        dd($payment->execute($execution, $this->_apiContext));
+        return $payment->execute($execution, $this->_apiContext);
     }
 }
 
