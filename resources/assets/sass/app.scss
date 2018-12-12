@@ -8,10 +8,6 @@
 // Bootstrap
 //@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-.big-padding{
-    padding:30px;
-}
-
 .text-center{
 }
 
@@ -33,6 +29,14 @@
 
 .no-padding{
     padding: 0px;
+}
+
+.big-padding{
+    padding:30px;
+}
+
+.large-padding{
+    padding: 10px 15px;
 }
 
 .red-text{
@@ -81,4 +85,9 @@
         right:1em;
         top:10px;
     }
+}
+
+//Status order
+.creado{
+    background-color:#d4e157;
 }

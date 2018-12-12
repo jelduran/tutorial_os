@@ -1,7 +1,3 @@
-.big-padding {
-  padding: 30px;
-}
-
 .blue-grey {
   background-color: #37474f;
 }
@@ -20,6 +16,14 @@
 
 .no-padding {
   padding: 0px;
+}
+
+.big-padding {
+  padding: 30px;
+}
+
+.large-padding {
+  padding: 10px 15px;
 }
 
 .red-text {
@@ -68,6 +72,10 @@
 .product .actions {
   right: 1em;
   top: 10px;
+}
+
+.creado {
+  background-color: #d4e157;
 }
 
 /*# sourceMappingURL=app.css.map */
